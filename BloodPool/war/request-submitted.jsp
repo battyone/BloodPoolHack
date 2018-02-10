@@ -468,8 +468,4 @@ if(session.getAttribute("emailID")==null){
     <script src="js/modernizr.min.js"></script>
     <script src="js/script.min.js"></script>
 </body>
-
-
-
-<!-- Mirrored from ieasoft.net/amir/demos/emona/single-blog.jsp by HTTrack Website Copier/3.x [XR&CO&#8217;2014], Fri, 14 Jul 2017 17:30:08 GMT -->
 </html>

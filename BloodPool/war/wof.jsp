@@ -5,8 +5,6 @@
 <!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html>
-
-<!-- Mirrored from ieasoft.net/amir/demos/BloodPool/about-us.jsp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 17:29:30 GMT -->
 <head>
     <title>BloodPool | Wall Of Fame </title>
     <meta name="author" content="Amir Nageh">
