@@ -26,9 +26,9 @@ public class DistController extends HttpServlet {
 		ArrayList<UserDetailsEntity> bloodDonorList = (ArrayList<UserDetailsEntity>)sess.getAttribute("bloodDonorList"); 
 		int donors = distService.setNotifications(dists, patientID, bloodDonorList);
 
-		req.setAttribute("donors", donors);
+		sess.setAttribute("donors", donors);
 
-		req.getRequestDispatcher("request-submitted.jsp").forward(req, resp);
+		resp.sendRedirect("request-submitted.jsp");
 
 	}
 

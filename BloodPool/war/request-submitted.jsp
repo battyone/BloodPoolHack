@@ -12,7 +12,7 @@ if(session.getAttribute("emailID")==null){
 	response.sendRedirect("login.jsp");
 }
 
- else if(request.getAttribute("donors")==null){
+ else if(session.getAttribute("donors")==null){
 	response.sendRedirect("home.jsp");
 } 
 %>
@@ -85,7 +85,7 @@ if(session.getAttribute("emailID")==null){
                     <div class="sign-group pull-right">
                         <i class="fa fa-sign-in"></i>
                            <%
-                        out.print("Hello,"+session.getAttribute("username"));
+                        out.print("Hello,"+session.getAttribute("firstName"));
                         %>
                     </div>
                     <!-- end sign-group -->
@@ -172,7 +172,7 @@ if(session.getAttribute("emailID")==null){
                             <div class="post-description">
                                 <p>
                                   Thank you for submitting the request! We are looking into the matter and will make sure the patient gets the required amount of blood on time.
-                                  We have send requests to our <strong> <%=request.getAttribute("donors") %></strong> registered donors and are waiting for their response. If needed we will contact more donors.
+                                  We have send requests to our <strong> <%=session.getAttribute("donors") %></strong> registered donors and are waiting for their response. If needed we will contact more donors.
                                 </p>
                             </div>
                             <!-- end post-description -->
