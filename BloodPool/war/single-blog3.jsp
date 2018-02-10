@@ -83,10 +83,10 @@
                         
                         }
                         
-                        else if(sess.getAttribute("username")==null){
+                        else if(sess.getAttribute("firstName")==null){
                         	out.print(" <a href='login.jsp' class='login'>sign in</a><a href='register.jsp' class='register'>register</a>");
                     	}
-                        else out.print("Hello,"+sess.getAttribute("username"));
+                        else out.print("Hello,"+sess.getAttribute("firstName"));
                         %>
                     </div>
                     <!-- end sign-group -->
