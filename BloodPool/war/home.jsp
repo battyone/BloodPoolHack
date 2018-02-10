@@ -100,7 +100,7 @@
 								class="icon-bar"></span> <span class="icon-bar"></span> <span
 								class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html">
+						<a class="navbar-brand" href="index.jsp">
 							<h1>BLOODPOOL</h1>
 						</a>
 					</div>
@@ -141,7 +141,7 @@
 								<p>BloodPool is an organisation that aims at bringing
 									together prospective donors and patients in an easy to use
 									environment.</p>
-								<a href="single-blog.html">learn more</a>
+								<a href="single-blog.jsp">learn more</a>
 							</div>
 							<!-- end slider-caption -->
 						</div>
@@ -159,7 +159,7 @@
 								80,000 pints of blood are used each day in India. Approximate 1
 								out of every 7 people entering the hospital needs blood. 1
 								donation has the potential to save as many as 3 lives.</p>
-							<a href="single-blog1.html">learn more</a>
+							<a href="single-blog1.jsp">learn more</a>
 						</div>
 						<!-- end slider-caption -->
 						<img src="images/slide2.jpg" alt="slide1" class="img-responsive">
@@ -173,7 +173,7 @@
 							<h1>find out now</h1>
 							<p>Learn whether or not you are capable of donating blood
 								temporarily or permanently.</p>
-							<a href="single-blog2.html">learn more</a>
+							<a href="single-blog2.jsp">learn more</a>
 						</div>
 						<!-- end slider-caption -->
 						<img src="images/slide3.jpg" alt="slide1" class="img-responsive">
@@ -186,7 +186,7 @@
 							<h1>check now</h1>
 							<p>Platelets and blood groups that a specific blood type can
 								donate vary.</p>
-							<a href="single-blog3.html">learn more</a>
+							<a href="single-blog3.jsp">learn more</a>
 						</div>
 						<!-- end slider-caption -->
 						<img src="images/slide4.jpg" alt="slide1" class="img-responsive">
@@ -199,7 +199,7 @@
 							<h1>surrounding blood donation</h1>
 							<p>Have a look at the different legends and myths surrounding
 								the donation of blood.</p>
-							<a href="single-blog4.html">learn more</a>
+							<a href="single-blog4.jsp">learn more</a>
 						</div>
 						<!-- end slider-caption -->
 						<img src="images/slide5.jpg" alt="slide1" class="img-responsive">
@@ -483,7 +483,7 @@ Some believe it is the right thing to do.  Here are the reasons why blood donati
                                 <!-- end widget-img -->
                                 <div class="widget-box">
                                     <div class="box-head">
-                                        <a href="single-blog3.html">WHO CAN DONATE TO WHOM?</a>
+                                        <a href="single-blog3.jsp">WHO CAN DONATE TO WHOM?</a>
                                     </div>
                                     <!-- end box-head -->
                                     <div class="box-cont">
@@ -491,7 +491,7 @@ Some believe it is the right thing to do.  Here are the reasons why blood donati
                                     </div>
                                     <!-- end box-cont -->
                                     <div class="box-more">
-                                        <a href="single-blog3.html">read more</a>
+                                        <a href="single-blog3.jsp">read more</a>
                                     </div>
                                     <!-- end box-more -->
                                 </div>
