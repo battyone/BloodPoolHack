@@ -69,11 +69,11 @@
                     <div class="sign-group pull-right">
                         <i class="fa fa-sign-in"></i>
                         <%
-                        if(session.getAttribute("username")==null){
+                        if(session.getAttribute("firstName")==null){
                         	out.print(" <a href='login.jsp' class='login'>sign in</a><a href='register.jsp' class='register'>register</a>");
                             
                     	}
-                        else out.print("Hello,"+session.getAttribute("username"));
+                        else out.print("Hello,"+session.getAttribute("firsName"));
                         %>
                     </div>
                     <!-- end sign-group -->
