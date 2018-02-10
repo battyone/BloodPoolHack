@@ -23,7 +23,7 @@ else{
  emailId=(String)application.getAttribute("eId");
  uDe=OfyService.ofy().load().type(UserDetailsEntity.class).id(emailId).now();
   
- no_of_requests=uDe.getNo_of_requests();
+ no_of_requests=uDe.getNoOfRequests();
 
  
  if(no_of_requests!=0){

@@ -60,6 +60,7 @@ if ((session.getAttribute("emailID") == null)) {
 	<%
 
 	 String patientID=(String)session.getAttribute("patientID");
+	@SuppressWarnings("unchecked")
 	ArrayList<UserDetailsEntity> bloodDonorList = (ArrayList<UserDetailsEntity>)session.getAttribute("bloodDonorList");
   
    PatientDetailsEntity pDe = OfyService.ofy().load().type(PatientDetailsEntity.class).id(patientID).now();

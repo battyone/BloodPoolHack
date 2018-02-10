@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+﻿<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -6,8 +6,6 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html>
 
-
-<!-- Mirrored from ieasoft.net/amir/demos/emona/about-us.jsp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 17:29:30 GMT -->
 <head>
 <title>BLOODPOOL | About-us</title>
 <meta name="author" content="Amir Nageh">
@@ -75,11 +73,11 @@
                         <i class="fa fa-sign-in"></i>
                         <%
                         
-                        if(session.getAttribute("username")==null){
+                        if(session.getAttribute("firstName")==null){
                         	out.print(" <a href='login.jsp' class='login'>sign in</a><a href='register.jsp' class='register'>register</a>");
                             
                     	}
-                        else out.print("Hello,"+session.getAttribute("username"));
+                        else out.print("Hello,"+session.getAttribute("firstName"));
                         %>
                         
                         

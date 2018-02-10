@@ -5,9 +5,6 @@
 <!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html>
-
-
-<!-- Mirrored from ieasoft.net/amir/demos/BloodPool/contact-us.jsp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 17:30:09 GMT -->
 <head>
     <title>BloodPool | Contact-us </title>
     <meta name="author" content="Amir Nageh">
@@ -76,10 +73,10 @@
                     <div class="sign-group pull-right">
                         <i class="fa fa-sign-in"></i>
                            <%
-                        if(session.getAttribute("username")==null){
+                        if(session.getAttribute("firstName")==null){
                         	out.print(" <a href='login.jsp' class='login'>sign in</a><a href='register.jsp' class='register'>register</a>");
                     	}
-                        else out.print("Hello,"+session.getAttribute("username"));
+                        else out.print("Hello,"+session.getAttribute("firstName"));
                         %>
                     </div>
                     <!-- end sign-group -->
