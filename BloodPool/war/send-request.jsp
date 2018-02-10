@@ -229,7 +229,6 @@
                             <span class="icon-bar"></span>
                         </button>
                         <a class="navbar-brand" href="index.jsp">
-                            <!--                            c<span>oo</span>per-->
                             <h1>BLOODPOOL</h1>
                         </a>
                     </div>
