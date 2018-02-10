@@ -1,0 +1,159 @@
+/*====== Theme color : #3db200 =======*/
+
+header .tophead .tophead-left .hotline a:hover,
+header .tophead .tophead-left .email a:hover,
+header .tophead .tophead-right .social a:hover,
+header .tophead .tophead-right .sign-group a:hover,
+header .tophead .tophead-right .group-language a:hover,
+header .tophead .tophead-left .hotline a i,
+header .tophead .tophead-left .email a i,
+header .tophead .tophead-right .sign-group i,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.icons .block .inner span,
+.content .icons .block:hover .inner h1,
+.navbar-form .form-control,
+.filters ul li.selected,
+.latest-post .latest-inner .widget .widget-inner .widget-header p a:hover,
+.widget-inner:hover .widget-box .box-head a,
+.widget-inner:hover .widget-box .box-more a,
+.video-caption span i:hover,
+.latest-inner .widget-more a:hover,
+.site-personal .corner-inner a,
+.posts-item:hover .post_item-right a,
+.open-switcher,
+.open-switcher:hover,
+.hypr-right ul li a:hover,
+.blog-right .blog_right-categories .blog-categories .categories-list ul li a:hover,
+.blog-right .blog_recent-post .blog-recent .blog_recent-list ul li:hover .blog-recent-description a,
+.blog_recent-list ul li .blog_recent-img .recent_img-caption a:hover,
+.blog-right .blog_right-search .blog_search button:hover,
+.blog_left-post:hover .post-head h1,
+.blog_left-post .post-breadcrumb ul li a:hover {
+    color: #3db200;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.down-btn,
+.slider-left:hover,
+.slider-right:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+.slider-caption a,
+.gallery .gallery-header span:before,
+.gallery .gallery-header span:after,
+.latest-post .latest-header span:before,
+.gallery-images .mix .gallery-caption .cont span:before,
+.latest-post .latest-header span:after,
+.widget-left:hover,
+.widget-right:hover,
+.cap-link:hover,
+.cap-zoom:hover,
+.our-team .team-header span:before,
+.latest-inner .widget-more a,
+.our-team .team-header span:after,
+.our-team .team-inner .dist .dist-inner .dist-social ul li a:hover,
+.toTop:hover,
+.boxed,
+.navbar-default .dropdown-toggle .shop-badge,
+.header2 .navbar-toggle:hover,
+.header2 .navbar-toggle:focus,
+.breadcrumb-wrapper,
+.cooper-agency .agency-head span:before,
+.cooper-agency .agency-head span:after,
+.agency-left .agency-slider .agency-arrow-left:hover,
+.agency-left .agency-slider .agency-arrow-right:hover,
+.skills-left .skills_head-left span:before,
+.skills-right .skills_head-right span:before,
+.bar-one .bar,
+.bar-two .bar,
+.bar-three .bar,
+.bar-four .bar,
+.customer-slider .customer-arrow-left:hover,
+.customer-slider .customer-arrow-right:hover,
+.navbar-default .dropdown-menu > li > a:hover,
+.navbar-default .dropdown-menu > li > a:focus,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.blog_left-post:hover .post-more a,
+.post-pagination .preview-left:hover,
+.post-pagination .preview-right:hover,
+.blog-right .blog_right-categories .blog-categories h1,
+.blog_left-post .post_image-hover .post_image .post_image-hover-caption .cap-link:hover,
+.blog_left-post .post_image-hover .post_image .post_image-hover-caption .cap-zoom:hover,
+.blog_left-post .post-video .post_video-caption span,
+.blog_left-post .post-slider .post-arrow-left:hover,
+.blog_left-post .post-slider .post-arrow-right:hover,
+.blog-right .blog_recent-tags .recent-tags h1,
+.blog-right .blog_recent-post .blog-recent h1,
+.post_slider-thumbinal .thumbinal-slider .thumbinal-arrow-left:hover,
+.post_slider-thumbinal .thumbinal-slider .thumbinal-arrow-right:hover,
+.comments-form .comment_form-inner .form-element div input[type=submit],
+.post_small-title .post_small-list li .small-times,
+.post_small-title .hexo-under-title:before {
+    background-color: #3db200;
+}
+
+.overlay {
+    background-color: rgba(61, 178, 0, 0.89);
+}
+
+.navbar-form .form-control,
+.gallery .gallery-header span,
+.content .icons .block:hover .inner span,
+.gallery-images .mix .gallery-caption .cont span,
+.our-team .team-header span,
+.latest-post .latest-header span,
+.skills-left .skills_head-left span,
+.skills-right .skills_head-right span,
+.cooper-agency .agency-head span,
+.post_small-title .hexo-under-title {
+    border: 1px solid #3db200;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #3db200;
+    border-bottom: 2px solid #3db200;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    border-bottom: 2px solid #3db200;
+}
+
+.header2 .navbar-nav > .open > a,
+.header2 .navbar-nav > .open > a:hover,
+.header2 .navbar-nav > .open > a:focus {
+    color: #3db200;
+    border-bottom: 0;
+}
+
+.header2 .navbar-nav > li > a:hover,
+.header2 .navbar-nav > li > a:focus,
+.header2 .navbar-nav > .active > a,
+.header2 .navbar-nav > .active > a:hover,
+.header2 .navbar-nav > .active > a:focus {
+    border-bottom: 0;
+}
+
+.header2 .form-control:focus {
+    border-color: #3db200;
+}
+
+.blog-right .blog_recent-tags .recent-tags .recent_tags-list a:hover,
+.post-pagination ul li a:hover,
+.post-pagination ul a.active {
+    border: 1px solid #3db200;
+    background-color: #3db200;
+}
