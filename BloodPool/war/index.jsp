@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"  %>
        
    <%
-   if(session.getAttribute("username")!=null){
+   if(session.getAttribute("firstName")!=null){
 	   
 	   response.sendRedirect("home.jsp");
    }
