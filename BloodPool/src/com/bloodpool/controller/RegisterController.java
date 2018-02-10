@@ -1,3 +1,4 @@
+//Controller for registering new user
 package com.bloodpool.controller;
 
 import java.io.IOException;
@@ -20,6 +21,8 @@ public class RegisterController extends HttpServlet {
 		UserDetailsService userDetailService = new UserDetailsService();
 		SendMailService sendMailSerive = new SendMailService();
 
+		// Receiving the details of user from user
+
 		String firstName = req.getParameter("fName");
 		String lastName = req.getParameter("lName");
 		String emailID = req.getParameter("email_ID");
@@ -40,17 +43,27 @@ public class RegisterController extends HttpServlet {
 			e.printStackTrace();
 		}
 
+		// Checking user details from existing users
+
 		if (userDetailService.checkIfUserAlreadyExist(emailID)) {
 			resp.sendRedirect("register.jsp");
-		} else if (!userDetailService.checkPassword(pass, confirmPass)) {
+		}
+
+		// Verifying password and confirm password fields to be same
+
+		else if (!userDetailService.checkPassword(pass, confirmPass)) {
 			resp.sendRedirect("register.jsp");
-		} else {
-			
+		}
+
+		// Registering the user in DataStore and sending Welcome Mail
+
+		else {
+
 			userDetailService.registerUser(firstName, lastName, emailID, pass, mobileNumber, addressOne, addressTwo,
 					dateOfBirth, bloodType, canDonateBlood);
 
 			sendMailSerive.sendWelcomeMail(firstName, emailID, pass);
-	 
+
 		}
 		resp.sendRedirect("login.jsp");
 	}
