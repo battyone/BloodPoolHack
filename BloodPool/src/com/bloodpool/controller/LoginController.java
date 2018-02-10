@@ -1,3 +1,4 @@
+// Controller for Login Request
 package com.bloodpool.controller;
 
 import java.io.IOException;
@@ -21,18 +22,32 @@ public class LoginController extends HttpServlet {
 		LoginService loginService = new LoginService();
 		UserDetailsDao userDetailsDao = new UserDetailsDao();
 
+		// Receiving login credentials
+
 		String emailID = req.getParameter("emailID");
 		String pass = req.getParameter("loginPass");
+
+		// setting details in object loginService
 
 		loginService.setEmailID(emailID);
 		loginService.setPass(pass);
 
+		// Verifying login credentials
+
 		if (userDetailsDao.authenticateUser(loginService)) {
+
+			// Creating new session for user
+
 			HttpSession session = req.getSession();
 			session.setAttribute("emailID", emailID);
 			session.setAttribute("firstName", userDetailsService.getFirstName(emailID));
 			resp.sendRedirect("home.jsp");
-		} else {
+		}
+
+		else {
+
+			// Wrong Credentials, Display Login Error
+
 			req.setAttribute("loginError", "Email ID or password is incorrect");
 			resp.sendRedirect("login.jsp");
 		}
