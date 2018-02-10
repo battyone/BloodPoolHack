@@ -208,8 +208,8 @@
                     <!-- end social -->
                     <div class="sign-group pull-right">
                         <i class="fa fa-sign-in"></i>
-                        <a href="login.html" class="login">sign in</a>
-                        <a href="register.html" class="register">register</a>
+                        <a href="login.jsp" class="login">sign in</a>
+                        <a href="register.jsp" class="register">register</a>
                     </div>
                     <!-- end sign-group -->
                 </div>
@@ -228,7 +228,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index.jsp">
                             <!--                            c<span>oo</span>per-->
                             <h1>BLOODPOOL</h1>
                         </a>
