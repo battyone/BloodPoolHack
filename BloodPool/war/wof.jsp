@@ -71,7 +71,7 @@
                         	out.print(" <a href='login.jsp' class='login'>sign in</a><a href='register.jsp' class='register'>register</a>");
                             
                     	}
-                        else out.print("Hello,"+session.getAttribute("firsName"));
+                        else out.print("Hello,"+session.getAttribute("firstName"));
                         %>
                     </div>
                     <!-- end sign-group -->
