@@ -19,6 +19,7 @@ import com.bloodpool.entity.UserDetailsEntity;
 import com.bloodpool.service.PatientDetailsService;
 import com.bloodpool.service.SendRequestService;
 import com.bloodpool.service.UserDetailsService;
+import com.bloodpool.service.SendMailService;
 
 public class SendRequestController extends HttpServlet {
 	// A static, final and type long serial version UID
@@ -30,6 +31,7 @@ public class SendRequestController extends HttpServlet {
 		PatientDetailsService patientDetailService = new PatientDetailsService();
 		SendRequestService sendRequestService = new SendRequestService();
 		UserDetailsService userDetailsService = new UserDetailsService();
+		SendMailService sendMailService = new SendMailService();
 		
 		// Receiving the details of patient
 		
@@ -87,6 +89,7 @@ public class SendRequestController extends HttpServlet {
 			sess.setAttribute("patientID", patientID);
 			sess.setAttribute("bloodDonorList", bloodDonorList);
 			sess.setAttribute("plateletDonorList", plateletDonorList);
+			sendMailService.sendNewUserRequestMail(sess.getAttribute("emailID").toString(),bloodDonorList, patientID);
 			resp.sendRedirect("DistMat.jsp");
 		}
 	}

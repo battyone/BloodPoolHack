@@ -10,10 +10,6 @@ import com.bloodpool.entity.UserDetailsEntity;
 
 public class SendRequestService {
 
-	/*
-	 * public enum BloodType { START, aPLUS, aMINUS, bPLUS, bMINUS, oPLUS,
-	 * oMINUS, abPLUS, abMINUS; }
-	 */
 
 	public ArrayList<UserDetailsEntity> sendBloodRequests(String patientID) {
 
