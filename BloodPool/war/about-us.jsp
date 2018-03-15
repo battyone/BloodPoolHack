@@ -947,8 +947,4 @@
 	<script src="js/modernizr.min.js"></script>
 	<script src="js/script.min.js"></script>
 </body>
-
-
-
-<!-- Mirrored from ieasoft.net/amir/demos/emona/about-us.jsp by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 14 Jul 2017 17:30:00 GMT -->
 </html>
