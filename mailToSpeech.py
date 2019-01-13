@@ -5,7 +5,7 @@ import subprocess
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
 # imaplib module implements connection based on IMAPv4 protocol
-mail.login('iotproject007@gmail.com', 'JoyPiM3B')
+mail.login('abcd@gmail.com', 'Password')
 mail.list() # Lists all labels in GMail
 mail.select('inbox') # Connected to inbox.
 result, data = mail.uid('search', None, "ALL")
