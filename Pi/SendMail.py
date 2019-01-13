@@ -20,20 +20,20 @@ while(1):
     if input_state1 == False:
         server = smtplib.SMTP('smtp.gmail.com', 465)
         server.starttls()
-        server.login("iotproject007@gmail.com", "JoyRPiM3B")
+        server.login("sender@gmail.com", "sender_password")
 
         msg = "true"
-        server.sendmail("iotproject007@gmail.com", "bloodpoool.control1@gmail.com", msg)
+        server.sendmail("sender@gmail.com", "sendTo@gmail.com", msg)
         server.quit()
         exit()
 
     if input_state2 == False:
         server = smtplib.SMTP('smtp.gmail.com', 465)
         server.starttls()
-        server.login("iotproject007@gmail.com", "JoyRPiM3B")
+        server.login("sender@gmail.com", "sender_password")
 
         msg = "false"
-        server.sendmail("iotproject007@gmail.com", "bloodpoool.control1@gmail.com", msg)
+        server.sendmail("sender@gmail.com", "sendTo@gmail.com", msg)
         server.quit()
         exit()
 
